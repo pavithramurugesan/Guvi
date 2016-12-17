@@ -6,7 +6,7 @@ int main()
 int fact,i,n;
 printf("Enter a number:");
 scanf("%d",&n);
-if(n==0)
+if(n<=0)
 {
 return 1;
 }
